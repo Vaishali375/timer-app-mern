@@ -79,18 +79,18 @@ function App() {
       </div>
       <div className="Timer">
           <div className="timer">
-            <span className="digits">
+            <h1 className="digits">
                {hour}:
-            </span>
-            <span className="digits">
+            </h1>
+            <h1 className="digits">
              {minute}:
-            </span>
-            <span className="digits">
+            </h1>
+            <h1 className="digits">
              {second}:
-            </span>
-            <span className="digits">
+            </h1>
+            <h1 className="digits">
              {milisecond}
-            </span>
+            </h1>
            </div>
            <div className="image">
                <img src="https://images.freeimages.com/images/premium/large-thumbs/4822/48229682-clock-without-numbers-isolated-on-white-background.jpg" alt="" />
